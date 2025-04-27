@@ -451,11 +451,9 @@ kubectl port-forward svc/app 3000:3000
 ---
 Vault gives your Node.js app a secure, automated, and compliant way to use secrets dynamically, without hardcoding or risking leaks.
 ---
+## Why Do We Use Vault?
 
 ```plain text
-
- Why Do We Use Vault in the Secure Secrets Management with HashiCorp Vault Project?
-
 🧩 1. To Securely Manage Secrets Outside the App
 In this project, your Node.js app needs sensitive database credentials.
 If you hardcode these credentials inside your app:
