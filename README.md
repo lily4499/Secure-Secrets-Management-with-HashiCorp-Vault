@@ -449,8 +449,7 @@ kubectl port-forward svc/app 3000:3000
 - ✅ Node.js app secret management best practices
 
 ---
-Vault gives your Node.js app a secure, automated, and compliant way to use secrets dynamically, without hardcoding or risking leaks.
----
+
 ## Why Do We Use Vault?
 
 ```plain text
@@ -499,6 +498,8 @@ Compliance (PCI-DSS, HIPAA, SOC2, etc.)
 You can prove exactly who had access to which secrets, when.
 
 ```
+---
+Vault gives your Node.js app a secure, automated, and compliant way to use secrets dynamically, without hardcoding or risking leaks.
 ---
 
 ## 📚 References
